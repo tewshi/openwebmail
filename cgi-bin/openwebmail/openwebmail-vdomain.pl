@@ -114,7 +114,7 @@ umask(0002); # make sure the openwebmail group can write
 
 use strict;
 use Fcntl qw(:DEFAULT :flock);
-use CGI 3.31 qw(-private_tempfiles :standard);
+use CGI 4.40 qw(-private_tempfiles :standard);
 use CGI::Carp qw(fatalsToBrowser carpout);
 use File::Path;
 
